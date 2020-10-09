@@ -1,0 +1,22 @@
+.connect {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    &__link {
+        margin-bottom: 11px;
+    }
+
+    &__list {
+        display: flex;
+
+    }
+
+    &__elem {
+        margin-right: 10px;
+    }
+
+}

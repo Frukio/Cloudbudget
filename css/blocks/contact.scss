@@ -1,0 +1,91 @@
+.contact {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+
+    &__desc {
+        width: 40%;
+        
+    }
+
+    &__title {
+        margin-bottom: 60px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &__form {
+        width: 50%;
+    }
+
+    &__form-row{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__input-wrap {
+        width: 100%;
+    }
+
+    &__input {
+        margin-bottom: 24px;
+    }
+
+    &__input[type="text"] {
+        width: 45%;
+        height: 60px;
+        padding: 31px 20px;
+        color: rgba(19, 39, 67, 0.5);
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    &__input[type="text"]:first-child {
+        margin-right: 25px;
+    }
+
+    &__input[type="tel"] {
+        width: 95%;
+        height: 60px;
+        padding: 31px 20px;
+        color: rgba(19, 39, 67, 0.5);
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    &__select {
+        width: 95%;
+        height: 60px;
+        margin-bottom: 36px;
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    &__button {
+        width: 160px;
+        height: 60px;
+        padding: 17px 34px;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #ed4c5c;
+        border-radius: 6px;
+    }
+
+}

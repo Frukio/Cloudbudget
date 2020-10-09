@@ -1,0 +1,28 @@
+.footer {
+    background-color: #fafafa;
+
+    &__container {
+        padding: 85px 0;
+    }
+
+    &__page {
+        margin-bottom: 85px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__elem {
+        width: 40%;
+        margin-right: 30px;
+    }
+
+    &__title {
+        margin-bottom: 33px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

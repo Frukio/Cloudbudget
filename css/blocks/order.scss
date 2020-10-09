@@ -1,0 +1,46 @@
+.order {
+    background: #ED4C5C;
+
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+        
+        padding: 95px 0;
+    }
+
+    &__desc {
+        width: 40%;
+        margin-right: 81px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #fff;
+        
+    }
+    
+    &__text {
+        margin-top: 50px;
+        margin-bottom: 44px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__elem {
+        height: 24px;
+        width: 24px;
+        margin-right: 25px;
+    }
+}

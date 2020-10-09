@@ -1,0 +1,21 @@
+.nav {
+    
+
+    &__list {
+        display: flex;
+    }
+
+    &__link {
+        margin-right: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__link:hover {
+        text-decoration: underline;
+        transition: 0.2s ease-in-out all;
+    }
+
+    
+
+}

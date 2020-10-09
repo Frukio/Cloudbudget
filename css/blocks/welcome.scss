@@ -1,0 +1,57 @@
+.welcome {
+    position: relative;
+    height: 100vh;
+    background: url('/images/png/Rectangle\ 3.jpg');
+    z-index: 1;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        z-index: 100;
+        
+    }
+    &__page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+
+    &__subtitle {
+        width: 49%;
+        margin-bottom: 39px;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__button {
+        width: 160px;
+        padding: 17px 50px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ed4c5c;
+        border-radius: 6px;
+    }
+
+    &__button:hover {
+        background-color: #E12134;
+        color: #fff;
+        transition: 0.2s ease-in-out all;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+
+
+

@@ -1,0 +1,12 @@
+.services {
+    &__list {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    &__elem:hover {
+        text-decoration: underline;
+    }
+}
