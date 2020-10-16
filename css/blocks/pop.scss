@@ -1,0 +1,56 @@
+.pop {
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 50px;
+    z-index: 100;
+
+    &__picture {
+        width: 120px;
+        height: 120px;
+        margin: 0 185px 20px 185px;
+    }
+
+    &__desc {
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        color: #ed4c5c;
+
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 6px;
+    }
+
+    &__text {
+        padding: 15px 0;
+    }
+
+    &__button {
+        min-width: 160px;
+        padding: 17px 34px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-transform: uppercase;
+        background-color: #ed4c5c;
+        color:#fff;
+        border-radius: 6px;
+    }
+}

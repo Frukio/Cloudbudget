@@ -14,7 +14,6 @@
     }
 
     &__title {
-        font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 43px;
@@ -23,9 +22,8 @@
     }
     
     &__text {
-        margin-top: 50px;
-        margin-bottom: 44px;
-        font-style: normal;
+        padding-top: 50px;
+        padding-bottom: 44px;
         font-weight: normal;
         font-size: 14px;
         line-height: 20px;
@@ -39,8 +37,12 @@
     }
 
     &__elem {
-        height: 24px;
-        width: 24px;
-        margin-right: 25px;
+        min-height: 24px;
+        min-width: 24px;
+        padding-right: 25px;
+    }
+
+    &__elem:last-child {
+        padding-right: 0;
     }
 }

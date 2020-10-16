@@ -3,8 +3,8 @@
 
     &__container {
         display: flex;
-        margin-top: 95px;
-        margin-bottom: 95px;
+        padding-top: 95px;
+        padding-bottom: 95px;
         
     }
 
@@ -14,17 +14,15 @@
     }
 
     &__title {
-        margin: 50px 0;
+        padding: 50px 0;
         font-family: Lato;
-        font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 43px;
     }
 
     &__text {
-        margin-bottom: 30px;
-        font-style: normal;
+        padding-bottom: 30px;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -32,24 +30,24 @@
 
     &__link {
         color: #ed4c5c;
-        font-style: normal;
+
         font-weight: 400;
         font-size: 14px;
     }
 
     &__video {
-        background: 80% 80% url('/images/png/Video_bg.png') no-repeat;
-        background-position: center;
-        height: 311px;
-        width: 445px;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     &__button {
-        position: relative;
+        position: absolute;
         top: 125px;
         left: -30px;
-        width: 66px;
-        height: 66px;
+        min-width: 66px;
+        min-height: 66px;
 
         background: #ed4c5c 18px 18px url('/images/png/PlaySolid\(SVG\).png') no-repeat;
         background-position: center;

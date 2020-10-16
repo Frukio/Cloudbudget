@@ -6,7 +6,7 @@
     }
 
     &__page {
-        margin-bottom: 85px;
+        padding-bottom: 85px;
     }
 
     &__list {
@@ -15,12 +15,15 @@
 
     &__elem {
         width: 40%;
-        margin-right: 30px;
+        padding-right: 30px;
+    }
+
+    &__elem:last-child {
+        padding-right: 0;
     }
 
     &__title {
-        margin-bottom: 33px;
-        font-style: normal;
+        padding-bottom: 33px;
         font-weight: 700;
         font-size: 18px;
         line-height: 22px;

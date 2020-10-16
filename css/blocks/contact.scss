@@ -3,8 +3,8 @@
     &__container {
         display: flex;
         justify-content: space-between;
-        margin-top: 115px;
-        margin-bottom: 115px;
+        padding-top: 115px;
+        padding-bottom: 115px;
     }
 
     &__desc {
@@ -12,18 +12,9 @@
         
     }
 
-    &__title {
-        margin-bottom: 60px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 43px;
-        
-    }
 
     &__text {
-        font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 14px;
         line-height: 20px;
     }
@@ -32,38 +23,35 @@
         width: 50%;
     }
 
-    &__form-row{
+    &__form-row {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        margin-bottom: 24px;
+        
     }
 
     &__input-wrap {
         width: 100%;
     }
 
-    &__input {
-        margin-bottom: 24px;
+    &__label {
+        padding-right: 25px; 
     }
+
 
     &__input[type="text"] {
         width: 45%;
-        height: 60px;
-        padding: 31px 20px;
-        color: rgba(19, 39, 67, 0.5);
+        padding: 20px 31px;
         border: 1px solid #333333;
         box-sizing: border-box;
         border-radius: 6px;
     }
-    &__input[type="text"]:first-child {
-        margin-right: 25px;
-    }
 
     &__input[type="tel"] {
         width: 95%;
-        height: 60px;
-        padding: 31px 20px;
-        color: rgba(19, 39, 67, 0.5);
+
+        padding: 20px 31px;
         border: 1px solid #333333;
         box-sizing: border-box;
         border-radius: 6px;
@@ -71,21 +59,49 @@
 
     &__select {
         width: 95%;
-        height: 60px;
-        margin-bottom: 36px;
+        padding: 20px 30px;
         border: 1px solid #333333;
         box-sizing: border-box;
         border-radius: 6px;
     }
 
+    &__option {
+        display: inline-block;
+        width: 45%;
+        padding: 20px 30px;
+        margin-right: 25px;
+        color: #ed4c5c;
+        border: 1px solid #ed4c5c;
+        box-sizing: border-box;
+        border-radius: 6px;
+        
+    }
+
+    &__label--option {
+        display: inline-block;
+        cursor: pointer;
+        padding-right: 90px;
+        line-height: 0.7;
+        user-select: none;
+    }
+
+    &__option input[tyoe="radio"]:checked + label {
+        background-color: #ed4c5c;
+        color: #fff;
+    }
+
     &__button {
-        width: 160px;
-        height: 60px;
+        min-width: 160px;
         padding: 17px 34px;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
+        line-height: 17px;
         background-color: #ed4c5c;
+        color:#fff;
         border-radius: 6px;
     }
 
+    
+
 }
+

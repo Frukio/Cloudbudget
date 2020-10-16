@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloudbudget</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/layout/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/layout/normalize.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container header__container">
                 <div class="header__logo logo">
-                    <img src="images/png/Group 3.png" alt="cloudbudget" class="logo">
+                    <img src="./images/png/logo.png" alt="cloudbudget" class="logo">
                 </div>
                 <div class="header__menu">
                     <nav class="nav">
@@ -38,34 +38,30 @@
                 </div>
                 <div class="header__right">
                     <div class="header__language">
-                        <img src="/images/png/Language Selection.png" alt="en" class="header__icon">
+                        <img src="./images/png/language.png" alt="en" class="header__icon">
                         
                     </div>
-                    <button class="header__login">LOGIN</button>
+                    <button class="header__button button header__button--">login</button>
                 </div>
             </div>
         </header>
 
-        <!--Header убрать из секции, задать абсолютом
-    Добавить тег main. Вывести header footer & main на один уровень.
-    Блоки, заголовки уникальны, являются самостоятельными блоками.
-    -->
         <main class="main">
             <section class="welcome">
                 <h2></h2>
                     <div class="container welcome__container">
                         
                         <div class="welcome__page">
-                                <h1 class="welcome__title title">CLOUDBUDGET</h1>
+                                <h1 class="welcome__heading heading">CLOUDBUDGET</h1>
                             
                             <div class="welcome__subtitle">
                                 <h2 class="subtitle">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99</h2>
                             </div>
-                            <button class="welcome__button">SIGN UP</button>
+                            <button class="welcome__button button">SIGN UP</button>
                         </div>
                         
                     </div>
-                <div class="overlay"></div>
+                
             </section>
     
             <section class="about">
@@ -81,7 +77,7 @@
                     </div>
                     <div class="about__video">
                         <button class="about__button"></button>
-                        <!-- <img src="/images/png/Video_bg.png" alt="video" class="about__img"> -->
+                         <img src="./images/png/about__video.png" alt="video" class="about__img">
                     </div>
                 </div>
             </section>
@@ -94,8 +90,8 @@
                     <div class="features__page">
                         <ul class="features__list">
                             <li class="features__elem">
-                                <div class="features__under">
-                                    <img src="/images/png/Bg-1.jpg" alt="hands" class="features__img">
+                                <div class="features__under image-box">
+                                    <img src="./images/png/features__under1.jpg" alt="hands" class="features__img">
                                 </div> 
                                 <div class="features__desc">
                                     <div class="features__name">Supports All Currencies and Cards</div>
@@ -104,8 +100,8 @@
                                 </div>
                             </li>
                             <li class="features__elem">
-                                <div class="features__under">
-                                    <img src="/images/png/Bg-2.jpg" alt="hands" class="features__img">
+                                <div class="features__under image-box">
+                                    <img src="./images/png/features__under2.jpg" alt="hands" class="features__img">
                                 </div> 
                                 <div class="features__desc">
                                     <div class="features__name">Manage your expenses on the go</div>
@@ -114,8 +110,8 @@
                                 </div>
                             </li>
                             <li class="features__elem">
-                                <div class="features__under">
-                                    <img src="/images/png/Bg-3.jpg" alt="hands" class="features__img">
+                                <div class="features__under image-box">
+                                    <img src="./images/png/features__under3.jpg" alt="hands" class="features__img">
                                 </div> 
                                 <div class="features__desc">
                                     <div class="features__name">Cloud Budget Management Software</div>
@@ -134,28 +130,31 @@
                     <ul class="technology__list">
                         <li class="technology__elem">
                             <div class="technology__picture technology__pisture--first">
-                                <img src="/images/png/Frame1(svg).png" alt="01" class="technology__img">
+                              <!--  <svg class="technology__img">
+                                    <use xlink:href="./images/svg/sprite.svg#cloud"></use>
+                                </svg> -->
+                                <img src="./images/png/technology__icon1.png" alt="01" class="technology__img">
                             </div>
                             <div class="technology__name">Cloud Storage</div>
                             <div class="technology__text">Access your account from anywhere in the world on any device</div>
                         </li>
                         <li class="technology__elem">
                             <div class="technology__picture technology__picture--second">
-                                <img src="/images/png/Frame2(svg).png" alt="01" class="technology__img">
+                                <img src="./images/png/technology__icon2.png" alt="01" class="technology__img">
                             </div>
                             <div class="technology__name">Secure</div>
                             <div class="technology__text">All your information is stored on secure cloud servers</div>
                         </li>
                         <li class="technology__elem">
                             <div class="technology__picture technology__picture--third">
-                                <img src="/images/png/Frame3(svg).png" alt="01" class="technology__img">
+                                <img src="./images/png/technology__icon3.png" alt="01" class="technology__img">
                             </div>
                             <div class="technology__name">PDF Download</div>
                             <div class="technology__text">Download any of your reports in PDF format</div>
                         </li>
                         <li class="technology__elem">
                             <div class="technology__picture technology__picture--fourth">
-                                <img src="/images/png/Frame4(svg).png" alt="01" class="technology__img">
+                                <img src="./images/png/technology__icon4.png" alt="01" class="technology__img">
                             </div>
                             <div class="technology__name">CSV Download</div>
                             <div class="technology__text">All your information is stored on secure cloud servers</div>
@@ -176,25 +175,25 @@
                             <ul class="order__list">
                                 <li class="order__elem">
                                     <a href="#" class="order__link">
-                                        <img src="/images/png/ion-logo-google-playstore(svg).png" alt="" class="order__icon">
+                                        <img src="./images/png/playstore.png" alt="" class="order__icon">
                                     </a>
                                 </li>
                                 <li class="order__elem">
                                     <a href="#" class="order__link">
-                                        <img src="/images/png/ion-logo-apple-appstore(svg).png" alt="" class="order__icon">
+                                        <img src="./images/png/appstore.png" alt="" class="order__icon">
                                     </a>
                                 </li>
                                 <li class="order__elem">
                                     <a href="#" class="order__link">
                                         
-                                        <img src="/images/png/simple-icons_windows(svg).png" alt="" class="order__icon">
+                                        <img src="./images/png/windows.png" alt="" class="order__icon">
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="order__slider">
-                        <img src="/images/png/Slider.png" alt="slider" class="order__slider--picture">
+                        <img src="./images/png/order__slider.png" alt="slider" class="order__slider--picture">
                     </div>
     
                 </div>
@@ -203,7 +202,7 @@
             <section class="contact">
                 <div class="contact__container container">
                     <div class="contact__desc">
-                        <h3 class="contact__title">Contact</h3>
+                        <h3 class="contact__title title">Contact</h3>
                         <div class="contact__text">
                             Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours
                         </div>
@@ -213,22 +212,25 @@
                         <div class="contact__form-row">
                             <div class="contact__input-wrap contact__input-wrap--half">
                                 <label class="contact__label">
-                                    <input type="text" name="name" class="contact__input" placeholder="First Name" onfocus="this.placeholder='';">
+                                    <span class="sr-only">First Name</span>
+                                    <input type="text" name="name" class="contact__input" placeholder="First Name" >
                                 </label>
                                 <label class="contact__label">
-                                    <input type="text" name="name" class="contact__input" placeholder="Last Name" onfocus="this.placeholder='';">
+                                    <span class="sr-only">Last Name</span>
+                                    <input type="text" name="name" class="contact__input" placeholder="Last Name" >
                                 </label>
                             </div>
                         </div>
                         <div class="contact__form-row"> 
                             <div class="contact__input-wrap">  
                                 <label class="contact__label">
-                                    <input type="tel" name="phone" class="contact__input" placeholder="Phone Number" onfocus="this.placeholder='';">
+                                    <span class="sr-only">Phone number</span>
+                                    <input type="tel" name="phone" class="contact__input" placeholder="Phone Number" >
                                 </label>
                             </div>  
                         </div>  
                         <div class="contact__form-row"> 
-                            <div class="contact__input-wrap contact__input-wrap--half">
+                            <div class="contact__input-wrap">
                                 <select name="option" class="contact__select">
                                     <option value="hidden">Select Service</option>
                                     <option value="">1</option>
@@ -236,7 +238,30 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="contact__form-row">
+                            <div class="contact__input-wrap contact__input-wrap--half contact__option">
+                                <label class="contact__label contact__label--option" for="option">Option 1</label>
+                                <input class="contact__input contact__input--option" id="option" type="radio" name="radio" value="1" checked >
+                            </div>
+                            <div class="contact__input-wrap contact__input-wrap--half contact__option">
+                                <label class="contact__label contact__label--option" for="option">Option 1</label>
+                                <input class="contact__input contact__input--option" id="option" type="radio" name="radio" value="1" checked >
+                            </div>
+                        </div>
                         <button class="contact__button btn">SUBMIT NOW</button>
+                        <div class="contact__pop pop">
+                            <div class="pop__picture image-box">
+                                <img src="./images/png/pop__image.png" alt="checkmark" class="pop__image">
+                            </div>
+                            <div class="pop__desc">
+                                <h3 class="pop__title">
+                                    thank you   
+                                </h3>
+                                <div class="pop__subtitle">for contacting</div>
+                            </div>
+                            <div class="pop__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                            <button class="pop__button btn">go back</button>
+                        </div>
                     </form>
                 </div>
             </section>
@@ -300,17 +325,17 @@
                                         <ul class="connect__list">
                                             <li class="connect__elem">
                                                 <a href="#" class="connect__social-link">
-                                                    <img src="/images/png/feather-facebook(svg).png" alt="" class="social__icon">
+                                                    <img src="./images/png/feather-facebook(svg).png" alt="" class="social__icon">
                                                 </a>
                                             </li>
                                             <li class="connect__elem">
                                                 <a href="#" class="connect__social-link">
-                                                    <img src="/images/png/feather-linkedin(svg).png" alt="" class="social__icon">
+                                                    <img src="./images/png/feather-linkedin(svg).png" alt="" class="social__icon">
                                                 </a>
                                             </li>
                                             <li class="connect__elem">
                                                 <a href="#" class="connect__social-link">
-                                                    <img src="/images/png/feather-twitter(svg).png" alt="" class="social__icon">
+                                                    <img src="./images/png/feather-twitter(svg).png" alt="" class="social__icon">
                                                 </a>
                                             </li>
                                         </ul>
@@ -324,7 +349,7 @@
                                     We Support
                                 </h3>
                                 <div class="footer__cards cards">
-                                    <img src="/images/png/secure-p-1 1.png" alt="" class="cards__img">
+                                    <img src="./images/png/cards.png" alt="" class="cards__img">
                                 </div>
                             </div>
                         </li>

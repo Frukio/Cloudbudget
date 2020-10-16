@@ -1,14 +1,16 @@
+
+
 .welcome {
     position: relative;
-    height: 100vh;
-    background: url('/images/png/Rectangle\ 3.jpg');
+    min-height: 100vh;
+    background: url('/images/png/welcome.jpg') no-repeat;
     z-index: 1;
 
     &__container {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
         z-index: 100;
         
     }
@@ -23,13 +25,13 @@
 
     &__subtitle {
         width: 49%;
-        margin-bottom: 39px;
+        padding-bottom: 39px;
         text-align: center;
         color: #fff;
     }
 
     &__button {
-        width: 160px;
+        min-width: 160px;
         padding: 17px 50px;
         font-size: 14px;
         font-weight: 600;
@@ -44,13 +46,15 @@
     }
 }
 
-.overlay {
+.welcome::before {
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    z-index: 10;
 }
 
 
